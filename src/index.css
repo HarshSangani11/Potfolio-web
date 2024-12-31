@@ -5,28 +5,7 @@
 * {
   scroll-behavior: smooth;
 }
-/* @keyframes rotate3d {
-  0% {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  }
-  100% {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(-360deg);
-  }
-}
-@keyframes rotate2d {
-  0% {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  }
-  100% {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg);
-  }
-}
-.button-3d {
-  animation: rotate3d 0.9s ease-in-out forwards;
-}
-.button-2d {
-  animation: rotate2d 0.9s ease-in-out forwards;
-} */
+
 
 
 @keyframes gradientMove {

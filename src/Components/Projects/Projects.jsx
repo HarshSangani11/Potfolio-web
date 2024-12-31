@@ -48,8 +48,8 @@ const Projects = () => {
           gitUrl="https://github.com/HarshSangani11/It-web.git"
         />
         <ProjectCard
-          title="Social Media App"
-          main="A social media app with user authentication, post sharing, and notifications."
+          title="Business Website"
+          main="This is a Business website created in html using a Bootstrap.also use media-query and javascript"
           imgUrl={Hot}
           demoUrl="https://hotelproject-web.netlify.app/"
           gitUrl="https://github.com/HarshSangani11/Hotel.git"

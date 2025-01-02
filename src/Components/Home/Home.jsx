@@ -14,17 +14,23 @@ const Home = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
+    if (!import.meta.env.VITE_SERVICE || !import.meta.env.VITE_TEMPLATE || !import.meta.env.VITE_PUBLIC) {
+      console.error("Missing EmailJS environment variables. Check .env file.");
+      alert("Configuration error. Please contact the administrator.");
+      return;
+    }
+  
     emailjs
       .send(
-        import.meta.env.SERVICE, // Replace with your EmailJS Service ID
-        import.meta.env.TEMPLATE, // Replace with your EmailJS Template ID
+        import.meta.env.VITE_SERVICE,
+        import.meta.env.VITE_TEMPLATE,
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
         },
-        import.meta.env.PUBLIC  // Replace with your EmailJS Public Key
+        import.meta.env.VITE_PUBLIC
       )
       .then(
         (result) => {
@@ -39,6 +45,7 @@ const Home = () => {
         }
       );
   };
+  
 
   return (
     <div className="text-white flex w-full mt-11 justify-between items-start p-10 md:p-20 bg-gradient-to-r from-gray-900 via-gray-800 to-black min-h-screen relative">

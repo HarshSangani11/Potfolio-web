@@ -58,6 +58,18 @@ const About = () => {
 
               </span>
             </div>
+            <div className="flex gap-3 py-4 animate-fadeUp">
+  <IoArrowForward size={30} className="mt-1 text-blue-400" />
+  <span className="w-96">
+    <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+      Graphic Designer
+    </h1>
+    <p className="text-sm md:text-md leading-tight text-gray-400">
+      As a Graphic Designer, I specialize in creating visually compelling designs that communicate ideas effectively. With a strong foundation in design principles and tools like Adobe Photoshop ,coreldraw and Figma, I craft graphics for branding, digital media, and print that engage and inspire audiences.
+    </p>
+  </span>
+</div>
+
           </ul>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaCss3, FaBootstrap, FaJs, FaPython } from "react-icons/fa";
-import { SiJquery, SiC, SiCplusplus, SiDatabricks } from "react-icons/si";
+import { SiJquery, SiC, SiCplusplus, SiDatabricks, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiAdobexd, SiCoreldraw } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -30,6 +30,10 @@ const Experience = () => {
             { icon: <SiC color="#A8B9CC" size={50} />, id: "c", name: "C Language" },
             { icon: <SiCplusplus color="#00599C" size={50} />, id: "cplusplus", name: "C++ Language" },
             { icon: <SiDatabricks color="#FFFFFF" size={50} />, id: "dsa", name: "DSA" },
+            { icon: <SiFigma color="#F24E1E" size={50} />, id: "figma", name: "Figma" },
+            { icon: <SiAdobephotoshop color="#31A8FF" size={50} />, id: "photoshop", name: "Photoshop" },
+            { icon: <SiAdobeillustrator color="#FF9A00" size={50} />, id: "illustrator", name: "Illustrator" },
+            { icon: <SiCoreldraw color="#FF61F6" size={50} />, id: "cd", name: "Corel" }
           ].map(({ icon, id, name }) => (
             <div
               key={id}

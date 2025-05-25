@@ -54,7 +54,7 @@ const Home = () => {
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter drop-shadow-lg">
           <TextChange />
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight drop-shadow-md mt-2">Full Stack Developer</p>
+        <p className="text-sm md:text-2xl tracking-tight drop-shadow-md mt-2">Full Stack Developer & Graphic Designer</p>
         <div className="mt-5 md:mt-10 flex flex-col gap-5">
           <button
             className="button-2d text-white py-2 px-4 text-sm md:text-lg md:py-3 md:px-5 font-semibold rounded-3xl bg-gradient-to-r from-green-400 to-blue-600 hover:from-green-600 hover:to-blue-800 transform hover:scale-110 hover:rotate-3 hover:shadow-2xl transition-all duration-300 ease-in-out shadow-lg animate-bounce"
